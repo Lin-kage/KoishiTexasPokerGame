@@ -27,6 +27,11 @@
       ]
     }
   },
+  "homepage": "https://github.com/Lin-kage/KoishiTexasPokerGame",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/Lin-kage/KoishiTexasPokerGame"
+  },
   "peerDependencies": {
     "koishi": "^4.17.9"
   },
