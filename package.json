@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-texas",
-  "description": "a texas poker game",
-  "version": "0.0.1",
+  "description": "德州扑克游戏，你可以在聊天室中与好友一起体验德州扑克的乐趣",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,14 +9,28 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "德扑",
+    "德州扑克",
+    "扑克",
+    "card",
+    "game",
+    "bet"
   ],
-  "devDependencies": {},
+  "koishi": {
+    "service": {
+      "required": [
+        "database"
+      ]
+    }
+  },
   "peerDependencies": {
     "koishi": "^4.17.9"
-  }
+  },
+  "contributors": [
+    "linkage: link_age@qq.com"
+  ]
 }
